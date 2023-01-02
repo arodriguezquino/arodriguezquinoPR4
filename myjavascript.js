@@ -12,4 +12,4 @@ for(var i = 0, len = provin.length; i < len;++i)
   opt.value= provin[i];
   opt.text = provin[i];
   newSelect.appendChild(opt);
-}
+};
