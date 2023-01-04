@@ -4,12 +4,12 @@ const provin = new Array("Alava","Albacete","Alicante","Almería","Asturias","Av
   "Orense","Palencia","Las Palmas","Pontevedra","La Rioja","Salamanca","Segovia","Sevilla","Soria","Tarragona",
   "Santa Cruz de Tenerife","Teruel","Toledo","Valencia","Valladolid","Vizcaya","Zamora","Zaragoza");
 
-const newSelect = document.querySelector("select");
-console.log(newSelect);/*
+const newSelect = document.getElementById("selesion");
+console.log(newSelect);
 for(var i = 0, len = provin.length; i < len;++i)
 {
-var opt = document.createElement("option");
-opt.value= provin[i];
-opt.text = provin[i];
-newSelect.add(opt);
-}*/
+  var opt = document.createElement("option");
+  opt.value= provin[i];
+  opt.text = provin[i];
+  newSelect.add(opt);
+}
