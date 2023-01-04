@@ -4,7 +4,7 @@ const provin = new Array("Alava","Albacete","Alicante","Almería","Asturias","Av
 "Orense","Palencia","Las Palmas","Pontevedra","La Rioja","Salamanca","Segovia","Sevilla","Soria","Tarragona",
 "Santa Cruz de Tenerife","Teruel","Toledo","Valencia","Valladolid","Vizcaya","Zamora","Zaragoza");
 
-const newSelect = document.getElementById('selesion');
+const newSelect = document.querySelector("select");
 console.log(newSelect);/*
 for(var i = 0, len = provin.length; i < len;++i)
 {
