@@ -14,4 +14,4 @@ $( document ).ready(function() {
   opt.text = provin[i];
   newSelect.add(opt);
   }*/
-}
+});
