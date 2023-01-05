@@ -10,6 +10,15 @@ for(let i = 0; i < array.length; i++) {
   newDiv.appendChild(document.createTextNode(array[i].titulo));
   newDiv.appendChild(document.createElement("br"));
   newDiv.appendChild(document.createTextNode(array[i].fotos));
+  newDiv.appendChild(document.createElement("br"));
+  var newSqm = document.createElement("p")
+  newSqm.innerText = "m²: "+array[i].m2;
+  newSqm.style.float = "left";
+  var hab = document.createElement("p");
+  hab.innerText = " hab: "+array[i].hab;
+  hab.style.float = "right";
+  newDiv.appendChild(newSqm);
+  newDiv.appendChild(hab);
 
   newDiv.style.background = "white";
   newDiv.style.color = "black";
