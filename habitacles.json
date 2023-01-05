@@ -1,6 +1,10 @@
-habitat1 = {localidad:"Bilbao",m2:108,hab:2,bany:1,fotos:"/hab1"};
-habitat2 = {localidad:"Gerona",m2:200,hab:3,bany:2,fotos:"/hab2"};
-habitat3 = {localidad:"Barcelona",m2:50,hab:1,bany:1,fotos:"/hab3"};
-habitat4 = {localidad:"Madrid",m2:20,hab:1,bany:1,fotos:"/hab4"};
-habitat5 = {localidad:"Sevilla",m2:1008,hab:6,bany:3,fotos:"/hab5"};
-habitat6 = {localidad:"Asturias",m2:135,hab:3,bany:2,fotos:"/hab6"};
+{
+  "habitats": [
+              {"localidad":"Bilbao","m2":"108","hab":"2","bany":"1","fotos":"/hab1"},
+              {"localidad":"Gerona","m2":"200","hab":"3","bany":"2","fotos":"/hab2"},
+              {"localidad":"Barcelona","m2":"50","hab":"1","bany":"1","fotos":"/hab3"},
+              {"localidad":"Madrid","m2":"20","hab":"1","bany":"1","fotos":"/hab4"},
+              {"localidad":"Sevilla","m2":"1008","hab":"6","bany":"3","fotos":"/hab5"},
+              {"localidad":"Asturias","m2":"135","hab":"3","bany":"2","fotos":"/hab6"}
+    ]
+}
