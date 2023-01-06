@@ -25,8 +25,8 @@ for(let i = 0; i < auxArray.length; i++) {
   var newSlide = document.createElement("img");
   
   newSlide.src = auxArray[i].fotos;
-  newSlide.height = "50px";
-  newSlide.width = "50px";
+  newSlide.height = "50";
+  newSlide.width = "50";
   
   newDiv.appendChild(newSlide);
   newDiv.appendChild(document.createElement("br"));
