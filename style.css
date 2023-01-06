@@ -39,9 +39,9 @@ footer {
   width: 100%; /* Full width */
   margin-top:0;
 }
-.navbar h1 {
+.navbar a {
 	color:white;
-  cursor:pointer;
+	text-decoration:none;
 }
 .search {
 	text-align:center;
